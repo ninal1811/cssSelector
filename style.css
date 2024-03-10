@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.title {
+	font-size: 7vw;
+	margin: 2vw;
+	text-align: center;
+}
+
+.flex p {
+	text-align: center;
+	font-size: 2.5vw;
+}
+
+.box {
+	padding: 20px 20px;
+}
+
+.matcha {
+	color: green;
+}
+
+.white {
+	color: #ffe6a7;
+}
+
+.dark {
+	color: #260701;
+}
+
+img {
+	width: 23vw;
+	height: 30vh;
+}
+
+.matcha:hover, .dark:hover, .white:hover {
+	background-color: chocolate;
+}
+
+.flex > div > p {
+	border: dotted;
+}
+
+
+:not(p) {
+	color: purple;
+}
+
+
+
+
